@@ -56,7 +56,7 @@
 
 
 -type cbt_file() :: pid().
--type file_option() :: create | overwrite.
+-type file_option() :: create | overwrite | create_if_missing.
 -type file_options() :: [file_option()].
 -type append_options() :: [{compression, cbt_compress:compression_method()}].
 

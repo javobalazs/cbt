@@ -1,7 +1,3 @@
-#cbt
-
-multi-layer MVCC log append-only database library based on the Apache CouchDB btree.
-
 ## Elixir notes
 
 This is an "Elixir-" and "Mix-friendly" version. I needed a pure erlang/elixir KV-store with
@@ -31,7 +27,11 @@ def deps do
 end
 ```
 
-**ORIGINAL README**
+# ORIGINAL README
+
+#cbt
+
+multi-layer MVCC log append-only database library based on the Apache CouchDB btree.
 
 ## Changes compared to couchdb
 

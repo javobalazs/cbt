@@ -1,7 +1,7 @@
 defmodule Ddd.MixProject do
   use Mix.Project
 
-  @vsn "1.2.2"
+  @vsn "1.2.3"
 
   def project do
     [

@@ -1,13 +1,14 @@
 defmodule Ddd.MixProject do
   use Mix.Project
 
-  @vsn "0.1.0"
+  @vsn "1.2.2"
 
   def project do
     [
       app: :cbt,
       version: @vsn,
       elixir: "~> 1.6",
+      description: "couch btree library",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]

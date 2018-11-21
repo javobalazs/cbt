@@ -2,6 +2,37 @@
 
 multi-layer MVCC log append-only database library based on the Apache CouchDB btree.
 
+## Elixir notes
+
+This is an "Elixir-" and "Mix-friendly" version. I needed a pure erlang/elixir KV-store with
+fully functional maps (the `btree` datatype here). The original app-file:
+
+```erlang
+{application, cbt,
+ [
+  {description, "couch btree library"},
+  {vsn, "1.2.2"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
+```
+
+## Installation
+
+```elixir
+def deps do
+  [
+    {:cbt, git: "https://github.com/javobalazs/cbt.git", tag: "1.2.2"},
+  ]
+end
+```
+
+**ORIGINAL README**
+
 ## Changes compared to couchdb
 
 - Pluggable Storage backends

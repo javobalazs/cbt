@@ -22,7 +22,7 @@ fully functional maps (the `btree` datatype here). The original app-file:
 ```elixir
 def deps do
   [
-    {:cbt, git: "https://github.com/javobalazs/cbt.git", tag: "1.2.3"},
+    {:cbt, git: "git@github.com:javobalazs/cbt.git", tag: "1.2.3"},
   ]
 end
 ```
